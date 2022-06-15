@@ -14,12 +14,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//+build !linux
+//go:build !linux
+// +build !linux
 
 package kernel
 
 const (
-	// FamilyAll is netlink.FAMILY_ALL
+	// FamilyAll is netlink.FAMILY_AL
 	FamilyAll = 0x0
 	// NudReachable is netlink.NUD_REACHABLE
 	NudReachable = 0x02
