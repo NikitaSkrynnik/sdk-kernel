@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711075046-ee7a03ccef6b
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711075620-e72c833061bd
 	github.com/edwarnicke/exechelper v1.0.2
 	github.com/edwarnicke/genericsync v0.0.0-20220910010113-61a344f9bc29
 	github.com/go-ping/ping v1.0.0
