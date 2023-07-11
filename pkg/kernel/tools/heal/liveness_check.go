@@ -23,10 +23,10 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 	"github.com/go-ping/ping"
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
 )
 
 const (

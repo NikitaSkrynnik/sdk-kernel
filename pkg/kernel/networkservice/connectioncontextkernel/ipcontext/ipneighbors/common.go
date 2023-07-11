@@ -32,14 +32,14 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/payload"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/payload"
 
-	link "github.com/networkservicemesh/sdk-kernel/pkg/kernel"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/peer"
+	link "github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/peer"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 )
 
 func create(ctx context.Context, conn *networkservice.Connection, isClient bool) error {

@@ -34,7 +34,7 @@ import (
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/nshandle"
 )
 
 // State defines admin state of the network interface

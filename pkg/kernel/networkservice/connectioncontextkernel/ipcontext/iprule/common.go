@@ -35,13 +35,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 
-	link "github.com/networkservicemesh/sdk-kernel/pkg/kernel"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
+	link "github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/nshandle"
 )
 
 func create(ctx context.Context, conn *networkservice.Connection, tableIDs *genericsync.Map[string, policies], nsRTableNextIDToConnID *genericsync.Map[NetnsRTableNextID, string]) error {

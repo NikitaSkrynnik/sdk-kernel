@@ -26,15 +26,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"
 
-	kernellink "github.com/networkservicemesh/sdk-kernel/pkg/kernel"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/vfconfig"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
+	kernellink "github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/vfconfig"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/nshandle"
 )
 
 func moveInterfaceToAnotherNamespace(ifName string, fromNetNS, toNetNS netns.NsHandle) error {

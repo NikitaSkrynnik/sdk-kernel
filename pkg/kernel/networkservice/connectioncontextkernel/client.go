@@ -22,17 +22,17 @@
 package connectioncontextkernel
 
 import (
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/iptables4nattemplate"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/mtu"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/routelocalnet"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/iptables4nattemplate"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/mtu"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/routelocalnet"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/chain"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipaddress"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipneighbors"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/routes"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipaddress"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipneighbors"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/routes"
 )
 
 // NewClient provides a NetworkServiceClient that applies the connectioncontext to a kernel interface

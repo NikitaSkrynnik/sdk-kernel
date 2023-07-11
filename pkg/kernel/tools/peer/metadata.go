@@ -25,7 +25,7 @@ import (
 
 	"github.com/vishvananda/netlink"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/utils/metadata"
 )
 
 type key struct{}

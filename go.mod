@@ -1,14 +1,14 @@
-module github.com/networkservicemesh/sdk-kernel
+module github.com/NikitaSkrynnik/sdk-kernel
 
 go 1.20
 
 require (
+	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711064140-46e8d97d94b8
 	github.com/edwarnicke/exechelper v1.0.2
 	github.com/edwarnicke/genericsync v0.0.0-20220910010113-61a344f9bc29
 	github.com/go-ping/ping v1.0.0
 	github.com/golang/protobuf v1.5.3
-	github.com/networkservicemesh/api v1.9.1-0.20230627143611-9785eacf9687
-	github.com/networkservicemesh/sdk v0.5.1-0.20230710100721-01bb35f8c3d6
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.3
 	github.com/vishvananda/netlink v1.2.1-beta.2.0.20220630165224-c591ada0fb2b

@@ -28,7 +28,7 @@ import (
 	"github.com/vishvananda/netns"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/nshandle"
 )
 
 const (

@@ -23,10 +23,10 @@ package setroutelocalnet
 import (
 	"context"
 
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
 )
 
 type setRouteLocalNetServer struct {

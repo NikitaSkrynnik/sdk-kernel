@@ -29,10 +29,10 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
-	"github.com/networkservicemesh/sdk/pkg/tools/postpone"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/utils/metadata"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/postpone"
 )
 
 type ipaddressServer struct {

@@ -22,15 +22,15 @@
 package connectioncontextkernel
 
 import (
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipaddress"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipneighbors"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/iprule"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/routes"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/mtu"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipaddress"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/ipneighbors"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/iprule"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/ipcontext/routes"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/connectioncontextkernel/mtu"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/chain"
 )
 
 // NewServer provides a NetworkServiceServer that applies the connection context to a kernel interface

@@ -24,11 +24,11 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/heal"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/heal"
 )
 
 const unPingableIPv4 = "172.168.1.1"

@@ -23,11 +23,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netns"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/tools/nshandle"
 )
 
 // See https://github.com/go-ping/ping#linux
